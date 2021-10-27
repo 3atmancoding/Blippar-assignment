@@ -69,7 +69,7 @@ const App = () => {
     setValue(e.target.value);
     const query = e.target.value;
     const listOfStrings = data?.split('\n');
-    console.log(listOfStrings);
+    // console.log(listOfStrings);
     if (query.length >= 3) {
       const result = listOfStrings?.filter((d) => {
         return d.toLowerCase().startsWith(query.toLowerCase());
@@ -86,12 +86,12 @@ const App = () => {
   const fetchData = useCallback(async () => {
     try {
       const response = await axios.get(url);
-      console.log(response);
+      // console.log(response);
       const { data } = response;
 
       setData(data);
     } catch (e) {
-      console.log('The error', e);
+      // console.log('The error', e);
     }
   }, []);
 

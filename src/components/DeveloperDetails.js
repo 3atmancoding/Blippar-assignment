@@ -10,7 +10,7 @@ const useStyles = makeStyles(() =>
 );
 const Developer = () => {
   const classes = useStyles();
-  console.log('Render - Developer Component');
+  // console.log('Render - Developer Component');
   return (
     <div className={classes.developerSection}>
       <p className={classes.content}>{Strings.devName}</p>

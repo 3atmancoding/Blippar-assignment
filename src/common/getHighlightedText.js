@@ -1,7 +1,7 @@
 export const getHighlightedText = (text, highlight) => {
-  console.log('The text', text);
+  //   console.log('The text', text);
   let parts = text.split(new RegExp(`(${highlight})`, 'gi'));
-  console.log('The parts', parts);
+  //   console.log('The parts', parts);
   return parts.map((part, i) => {
     return (
       <>
