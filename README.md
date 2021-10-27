@@ -1,5 +1,7 @@
 ## Assignment - React JS [BLIPPAR]
 
+Tech stack - React, HTML, CSS, Material UI
+
 ### The app has been hosted here 👇
 
 🚀🚀 https://blippar-assignment.vercel.app/
