@@ -90,7 +90,7 @@ const App = () => {
 
       setData(data);
     } catch (e) {
-      // console.log('The error', e);
+      console.log('The error', e);
     }
   }, []);
 
