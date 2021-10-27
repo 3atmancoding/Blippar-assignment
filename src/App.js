@@ -11,8 +11,7 @@ const useStyles = makeStyles(() =>
   createStyles({
     userContainer: {
       height: `300px`,
-      // backgroundColor: ` #f2fcfd `,
-      backgroundColor: ` #ebebeb `,
+      backgroundColor: ` #DCFAFF  `,
       display: `flex`,
       alignItems: `center`,
       justifyContent: `center`,
