@@ -8,7 +8,7 @@ const filteredItem = {
 };
 const Highlight = ({ value, highlight }) => {
   return (
-    <li style={filteredItem} key={uuidv4}>
+    <li style={filteredItem} key={uuidv4()}>
       {getHighlightedText(value, highlight)}
     </li>
   );
