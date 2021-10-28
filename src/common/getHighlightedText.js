@@ -1,8 +1,8 @@
 import { v4 as uuidv4 } from 'uuid';
 export const getHighlightedText = (text, highlight) => {
-  console.log('The text', text);
+  //   console.log('The text', text);
   let queries = text.split(new RegExp(`(${highlight})`, 'gi'));
-  console.log('The queries', queries);
+  //   console.log('The queries', queries);
   return queries.map((query) => {
     return (
       <>
