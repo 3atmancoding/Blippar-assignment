@@ -6,10 +6,10 @@ const filteredItem = {
   cursor: `pointer`,
   color: `#6e6e6e`,
 };
-const Highlight = ({ value, highlight }) => {
+const Highlight = ({ data, highlight }) => {
   return (
     <li style={filteredItem} key={uuidv4()}>
-      {getHighlightedText(value, highlight)}
+      {getHighlightedText(data, highlight)}
     </li>
   );
 };

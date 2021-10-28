@@ -104,7 +104,7 @@ const App = () => {
 
   const filteredList = filterData
     ? filterData?.map((data, i) => {
-        return <Highlight value={data} highlight={value} key={uuidv4()} />;
+        return <Highlight data={data} highlight={value} key={uuidv4()} />;
       })
     : '';
 
